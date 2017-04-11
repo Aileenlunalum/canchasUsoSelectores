@@ -1,0 +1,69 @@
+#canchaFutbol {
+    width:600px;/*ancho*/
+    height: 400px;;/*largo*/
+    border:solid 6px;;
+    border-color:white;
+    background: #28BF10;
+}
+#canchaFutbol div:nth-child(1){
+  width:113px;
+  height: 270px;
+position:absolute;
+left:12px;
+top:72px;
+border:solid 2px;
+border-color:white;
+background: #28BF10;
+}
+#canchaFutbol div:nth-child(2){
+  width:113px;
+  height: 270px;
+position:absolute;
+left:500px;
+top:72px;
+border:solid 2px;
+border-color:white;
+background: #28BF10;
+}
+
+#canchaFutbol div:nth-child(3){
+    width: 60px;
+    height: 90px;
+    border: 2px solid;
+    border-color:white;
+    background: #28BF10 ;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+    position:absolute; top: 154px; left: 129px;
+}
+#canchaFutbol div:nth-child(4){
+    width: 60px;
+    height: 90px;
+    border: 2px solid;
+    border-color:white;
+    background: #28BF10 ;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+    position:absolute; top: 154px; left:437px;
+    transform:rotate(180deg);
+}
+#canchaFutbol div:nth-child(5){
+width: 90px;
+height: 90px;
+border: 2px solid;
+border-color:white;
+background: #28BF10 ;
+-moz-border-radius:50%;
+border-radius: 50%;
+position:absolute; top: 154px; left: 259px;
+}
+
+#franja{
+  height: 400px;
+  width: 3px;
+  border: 3px solid;
+  border-color:white;
+  position:absolute; top: 7px; left: 300px;
+  }
